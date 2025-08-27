@@ -35,5 +35,5 @@ Further tests for both unit and function would be beneficial.
 ## Acknowledgments:
 I am sincerely grateful to my mentors, Rebbeca and Colin, for their invaluable guidance throughout my GSoC journey. It was my first time working with professional developers and contributing to an open-source community. The challenges and opportunities provided by this project have been instrumental for my growth and future development.
 
-## Link to my GitHub:
+## Link to my GitHub Repositry:
 [Andrea-S-8/PenalizedCorr at new-branch](https://github.com/Andrea-S-8/PenalizedCorr/tree/new-branch)
