@@ -16,16 +16,18 @@ This project implemented the recent techniques from Gallagher et al. (2024) and 
 
 ## What work was done: 
 + Created an R package using the existing research-level prototype code.
+  + Manipulated the existing research-level prototype code into the correct format for an R package. Learnt how to make an R package from existing functions. 
 + Created unit and function tests.
   + This testing focused on function parameters within the package PenalizedCorr.
-  + function testing was mainly done with tiny test.
+  + Wrote extensive test cases using tinytest, borrowing ideas from other time series packages.
 + Added logical testing
-  + This was the fix to errors found during testing.
+  + This was done to fix errors found during testing.
 + Wrote the user-facing functionality which includes extending the existing S3 class from base R and associated summary, print and plot methods to the new functions.
+  +  I have mimiced the existing base R function structure to make the functions easy to use for those familiar with those functions.  I have added additional arguments to allow for the new options.  Equally, the plotting functionality has mimiced the existing base R functionality. 
 + Added documentation to the functions.
 + Debugging and improvements.
 + Extend the existing research-level code to allow different user options for the different parameters with the defaults being those implemented in the research code. 
-  + User options were created for arguments, lambda and target, then documentation was updated followed by unit and function testing using tiny test
+  + User options were created for parameters, lambda and target, then documentation was updated followed by unit and function testing using tiny test
 + Worked on creating a new function for banded and tapered called bandtap, as well as up-to-date documentation. Then added an if statement to the function acf to call new function bandtap, following this unit testing was completed.
 + Wrote the Vignette
 
