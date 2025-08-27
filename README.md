@@ -1,4 +1,4 @@
-# GSoC-2025-Evaluation
+# GSoC 2025 modern time series estimation Final Evaluation
 
 ## Final Report:
 **Contributor**: Andrea Storey
