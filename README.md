@@ -1,6 +1,4 @@
-# GSoC 2025 modern time series estimation Final Evaluation
-
-## Final Report:
+# Final Evaluation:
 **Contributor**: Andrea Storey
 
 **Mentors**: Rebecca Killick and Colin Gallagher
