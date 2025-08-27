@@ -1,4 +1,4 @@
-# Final Evaluation:
+# GSoC Final Evaluation:
 **Contributor**: Andrea Storey
 
 **Mentors**: Rebecca Killick and Colin Gallagher
@@ -16,14 +16,17 @@ This project implemented the recent techniques from Gallagher et al. (2024) and 
 
 ## What work was done: 
 + Created an R package using the existing research-level prototype code.
-+ Created unit and function tests
-+ Added logical testing (to some functions in the package to fix errors)
++ Created unit and function tests.
+  + This testing focused on function parameters within the package PenalizedCorr.
+  + function testing was mainly done with tiny test.
++ Added logical testing
+  + This was the fix to errors found during testing.
 + Wrote the user-facing functionality which includes extending the existing S3 class from base R and associated summary, print and plot methods to the new functions.
-+ Added documentation to functions.
++ Added documentation to the functions.
 + Debugging and improvements.
 + Extend the existing research-level code to allow different user options for the different parameters with the defaults being those implemented in the research code. 
-++ User options were created for lambda and target, then documentation was updated followed by unit and function testing using tiny test
-+ Worked on creating a new function for banded and tapered called bandtap with documentation referencing forecast package. Then added an if statement to function acf to call bandtap, afterwards carried out unit testing.
+  + User options were created for arguments, lambda and target, then documentation was updated followed by unit and function testing using tiny test
++ Worked on creating a new function for banded and tapered called bandtap, as well as up-to-date documentation. Then added an if statement to the function acf to call new function bandtap, following this unit testing was completed.
 + Wrote the Vignette
 
 ## What code got merged:
