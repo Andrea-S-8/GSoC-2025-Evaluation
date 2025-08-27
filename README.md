@@ -36,5 +36,5 @@ My updates, code changes and merges can all be found here: [Commits · Andrea-S-
 The package is in its final stage before being released to the wider community. 
 Further tests for both unit and function would be beneficial.
 
-### Acknowledgments:
+#### Acknowledgments:
 I am sincerely grateful to my mentors, Rebbeca and Colin, for their invaluable guidance throughout my GSoC journey. This was my first time working with professional developers and contributing to an open-source community. The challenges and opportunities provided by this project have been instrumental for my growth and future development.
