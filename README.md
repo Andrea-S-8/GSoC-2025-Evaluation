@@ -9,6 +9,9 @@
 
 **Organisation**: R Project For Statistical Computing
 
+## Link to my GitHub Repositry:
+[Andrea-S-8/PenalizedCorr at new-branch](https://github.com/Andrea-S-8/PenalizedCorr/tree/new-branch)
+
 ## Description:
 
 This project implemented the recent techniques from Gallagher et al. (2024) and Gallagher et al. (2025) for improved time series simulation studies covering the whole parameter space of time series models (and not just cherry-pick one or two parameter settings) and also brought modern estimates of the acf/pacf and consistency in AIC selection of ar models (which is not currently available). Specifically, the project: - created functions for acf and pacf estimation based on a dual shrinkage approach - created functions for ar estimation based on the dual shrinkage pacf - interface the new ar estimation function with standard methods such as AIC for consistent estimation - created new graphics for displaying these estimates that make clear to the user the effect of the dual shrinkage approach (as an option) - created functions to generate ARMA parameters that satisfy a correlation constraint (high/med/low or a fixed correlation strength) - created functions to generate random ARMA parameter values that cover the whole parameter space regardless of the model order - created a wrapper for the above two functions to generate simulation datasets for researchers in one line of code All this functionality required appropriate documentation, testing and a vignette for users.
@@ -32,8 +35,5 @@ My updates, code changes and merges can all be found here: [Commits · Andrea-S-
 The package is in its final stage before being released to the wider community. 
 Further tests for both unit and function would be beneficial.
 
-## Acknowledgments:
-I am sincerely grateful to my mentors, Rebbeca and Colin, for their invaluable guidance throughout my GSoC journey. It was my first time working with professional developers and contributing to an open-source community. The challenges and opportunities provided by this project have been instrumental for my growth and future development.
-
-## Link to my GitHub Repositry:
-[Andrea-S-8/PenalizedCorr at new-branch](https://github.com/Andrea-S-8/PenalizedCorr/tree/new-branch)
+### Acknowledgments:
+I am sincerely grateful to my mentors, Rebbeca and Colin, for their invaluable guidance throughout my GSoC journey. This was my first time working with professional developers and contributing to an open-source community. The challenges and opportunities provided by this project have been instrumental for my growth and future development.
